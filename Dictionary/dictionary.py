@@ -34,4 +34,5 @@ search_term = ""
 
 while run_sentinel != search_term:
 	search_term = str(input("Enter word or 'X' when finished: "))
-	print(search(search_term))
+	defintion_list = search(search_term)
+	print("\n".join(defintion_list))
